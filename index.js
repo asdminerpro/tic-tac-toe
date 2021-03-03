@@ -5,8 +5,6 @@ const EMPTY = ' ';
 const container = document.getElementById('fieldWrapper');
 
 
-
-
 function startGame() {
     const observer = new Observer();
     renderGrid(3, observer);
